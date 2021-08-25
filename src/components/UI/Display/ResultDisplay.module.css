@@ -1,0 +1,24 @@
+.options{
+  background-color:#00e9a8;
+    /* background-image: -webkit-linear-gradient(-55deg, #00f77a 10%, white 70%); */
+
+   border-radius: 0 0 90px 0 ;
+   box-shadow: 0 2px 5px rgba(10,10,1000,.5);
+
+}
+.options button {
+  border:none;
+  background-color:transparent;
+  cursor:pointer;
+  font-size:25px;
+  font-weight:large;
+  color:white;
+  margin:2%;
+ 
+}
+
+.options button:hover{
+  color:black;
+  font-size:30px;
+  margin:1%;
+}

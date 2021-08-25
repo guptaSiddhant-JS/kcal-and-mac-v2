@@ -1,0 +1,39 @@
+.mainCard{
+    margin:4% 0;   
+}
+/* Title */
+.title{
+    margin:0;
+    text-align:right;
+    opacity:0.2;
+}
+h2{margin:0;}
+hr{
+    width:60%;
+    height:2px;
+    margin-left:40%;
+    background-color:grey;
+    border-radius:40px 0 0 0;
+}
+.content{
+    text-align:center;
+    margin:4%;
+    color:grey;
+  
+}
+.unit{
+    font-size:20px;
+}
+.infoPara{
+    color:grey;
+    font-weight:bold;
+    opacity:0.6;
+}
+@media  (max-width: 900px){
+.mainCard{
+    margin:3.5%;   
+    width:88%;
+    font-size:90%;
+   
+}
+}

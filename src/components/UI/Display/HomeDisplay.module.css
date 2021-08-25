@@ -1,0 +1,75 @@
+ .root{
+  height:120vh;
+  /* background-color: #E4E9FD; */
+  
+  font-family: 'helvetica neue';
+}
+  .main{
+   
+}
+.headContainer{
+  width:90%;
+   margin:0 6%;
+}
+
+.heading{
+    color:red;
+    font-weight:large;
+    font-size:100px;   
+}
+.subHeading{
+  margin:0;
+}
+.inputContainer{
+margin:4; 
+}
+.userInputCard{
+   background-color:transparent;
+  padding:4% 1%;
+  text-align:center;
+  width:80%;
+   
+}
+
+/* Responsiveness */
+@media  (min-width: 900px){
+  .root{
+  height:80vh;
+
+  }
+.main{
+  display:flex;
+}
+.headContainer{
+   width:75%;
+   margin:2%  0 0 6%;
+   /* border: 2px inset grey; */
+   /* background-color:white; */
+   height:80vh;
+   overflow:scroll;
+
+}
+.headContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.heading{
+    color:white;
+    font-weight:large;
+    font-size:100px;   
+}
+.subHeading{
+  margin:0;
+}
+.inputContainer{
+width:25%;
+padding:2%;
+}
+.userInputCard{
+   background-color:transparent;
+  text-align:center;
+  width:30vh;
+  margin-left:40px;
+   
+}
+}

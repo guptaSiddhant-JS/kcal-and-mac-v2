@@ -1,0 +1,17 @@
+.nav{
+    top:0;
+    padding:4px ;
+    height:8vh;
+    display:flex;
+    justify-content:space-between;
+    background-image: -webkit-linear-gradient(-55deg, #00f77a 10%, white 70%);
+}
+.tags{
+    display:flex;
+    padding:20px;
+    margin: 0 200px;
+}
+.tags h3{
+    margin:5px 20px;
+    
+}

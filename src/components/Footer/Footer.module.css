@@ -1,0 +1,9 @@
+.main{
+  padding:5px;
+  position:absolute;
+  bottom:0;
+  width:99%;
+   text-align:center;
+   background-image: -webkit-linear-gradient(-70deg, white  30%, #00f77a 70%);
+   box-shadow: 0 2px 5px rgba(10,10,1000,.5);
+}

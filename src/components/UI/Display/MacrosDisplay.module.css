@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+.mainCard{
+    margin:3.5%;   
+    width:88%;
+    font-size:90%;
+   
+}
+/* Title */
+.title{
+    margin:0;
+    text-align:right;
+    opacity:0.2;
+}
+.titleHeader{margin:0;}
+hr{
+    width:60%;
+    height:2px;
+    margin-left:40%;
+    background-color:grey;
+    border-radius:40px 0 0 0;
+}
+.content{
+margin:4%;
+}
+.data{
+   /* margin-left:4%; */
+}
+
+.subCard{  
+    margin:6%;
+    padding:6%;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Mukta', sans-serif;   
+}
+.protein{ background-image: linear-gradient(to top left,white, #ff003a)}
+.carb{ background-image: linear-gradient(to top left,white, #9afc60)}
+.fat{ background-image: linear-gradient(to top left,white, #f5fb3a)}
+.chart{
+ /* margin:3%; */
+   
+}
+.infoPara{
+    color:grey;
+    font-weight:bold;
+    opacity:0.6;
+}
+
+@media  (min-width: 900px){
+.mainCard{
+    margin:4% 0 ;
+}
+.content{
+display:flex;
+}
+.data{
+    width:50%;
+    margin:2%;
+}
+.subCard{
+    width:70%;
+    margin:6% 4% ;
+    padding:4%;
+}
+.chart{
+ margin-top:3%;
+ width:60%;   
+ 
+}
+}

@@ -1,0 +1,28 @@
+.nav{
+    top:0;
+    padding:4px ;
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    background-image: -webkit-linear-gradient(-55deg, #00f77a 10%, white 70%);
+    /* box-shadow: 0 2px 5px rgba(10,10,1000,.5); */
+}
+.heading{
+    margin: 2px 0 0px 200px ;
+    font-size:50px;
+    color:white;
+}
+.link{
+text-decoration:none;
+color:black;
+
+}
+.tags{
+    display:flex;
+    padding:20px;
+    margin: 0 200px;
+}
+.tags h3{
+    margin:5px 20px;
+    
+}

@@ -1,0 +1,59 @@
+.mainCard{
+  margin:4% 0;
+    animation: main 1s ease-out forwards;
+  
+}
+/* Title */
+.title{
+    margin:0;
+    text-align:right;
+    opacity:0.2;
+}
+h2{margin:0;}
+hr{
+    width:60%;
+    height:2px;
+    margin-left:40%;
+    background-color:grey;
+    border-radius:40px 0 0 0;
+}
+.elementCard{
+   display: flex;
+   justify-content: space-between;
+   margin: 1%;
+   padding:0 2%;
+   font-weight:bold;
+   font-size:15px;
+   
+   
+}
+
+.elementCard:hover{
+  margin:1% 0;
+  padding:0.5%;
+  font-size:22px;
+  width:110;
+  /* height:22%; */
+}
+.maintanace{
+  background-image: linear-gradient(to bottom right, yellow, white);
+}
+.eWL{
+ background-image: linear-gradient(to bottom right,rgb(0, 253, 0), white);
+}
+.wL{ background-image: linear-gradient(to bottom right,rgb(2, 250, 89), white);}
+.wG{ background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.4), white);}
+.eWG{ background-image: linear-gradient(to bottom right, red, white);}
+.infoPara{
+    color:grey;
+    font-weight:bold;
+    opacity:0.6;
+}
+@media  (max-width: 900px){
+.mainCard{
+    margin:3.5%;   
+    width:88%;
+    font-size:90%;
+   
+}
+}
